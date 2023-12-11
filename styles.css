@@ -1,0 +1,189 @@
+html {
+    background-color: #404040;
+}
+
+body {
+    background-color: #404040;
+    margin: 0;
+}
+
+header {
+    background-color: #4A4949;
+    margin-top: 0;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.topline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topline h1 {
+    padding-right: 20%;
+    color: white;
+}
+
+.circleimg {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 180px;
+}
+
+.circleimg img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: #4A4949;
+}
+
+nav {
+    padding-left: 8%;
+}
+
+nav li {
+    margin-right: 120px; /* Will need to adjust for responsiveness */
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.meat {
+    text-align: center;
+    color: white;
+    width: 70%;
+    margin: 60px auto;
+}
+
+.meat p, h3 {
+    text-align: center;
+}
+
+.Hskill {
+    color: white;
+    margin-top: 55px;
+}
+
+.skillset {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skillset img {
+    width: 45px;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    color: white;
+    background-color: #afafaf;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.onlymobile {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1500px) {
+    
+    nav li{
+        margin-right: 30px;
+    }
+
+    .topline h1 {
+        padding-right: 10%;
+    }
+}
+
+
+@media (max-width: 900px){
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .circleimg {
+        width: 150px;
+        height: auto;
+    }
+ 
+    .topline h1 {
+        display: flex;
+        margin-top: 80px;
+       
+    }
+
+    nav {
+        padding-left: 2%;
+    }
+}
+
+
+
+@media (max-width: 605px){
+
+    .topline h1 {
+        display: none;
+    }
+
+   .onlymobile {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+   }
+
+   .card {
+    width: 80%;
+   }
+}
