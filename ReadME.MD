@@ -1,6 +1,8 @@
 ***************************************
 
-ttps://www.figma.com/file/bne0IQbUbjLfOL0TINlWj5/Untitled?type=design&node-id=17%3A4&mode=design&t=egOiu7mkEFfnEVeQ-1
+https://www.figma.com/file/bne0IQbUbjLfOL0TINlWj5/Untitled?type=design&node-id=17%3A4&mode=design&t=egOiu7mkEFfnEVeQ-1      <<<<<<<<<WIREFRAME
+https://github.com/Eggs-n-Jakey          <<<<<<<Github Profile
+https://github.com/Eggs-n-Jakey/Eggs-n-Jakey.github.io          <<<<<<<<<<<<<Github Repo Link
 
 Link To Wireframe above.
 
