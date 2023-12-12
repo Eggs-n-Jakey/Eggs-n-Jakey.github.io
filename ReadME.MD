@@ -6,7 +6,7 @@ https://github.com/Eggs-n-Jakey/Eggs-n-Jakey.github.io          <<<<<<<<<<<<<Git
 
 Link To Wireframe above.
 
-This website for a professional profile page for Jacob Hartel.
+This website is for a professional profile page for Jacob Hartel.
 
 This site has 3 pages.
 
