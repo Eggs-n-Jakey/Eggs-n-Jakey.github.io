@@ -8,7 +8,7 @@ Link To Wireframe above.
 
 This website for a professional profile page for Jacob Hartel.
 
-This site has 3 pages. (4 if you count form submit confirmation)
+This site has 3 pages.
 
 Home page is an introduction to who I am and what I do.
 
