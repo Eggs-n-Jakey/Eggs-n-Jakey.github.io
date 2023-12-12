@@ -29,12 +29,40 @@
         <h1>Jacob Hartel</h1>
     </div>
     <h1 class="onlymobile">Jacob Hartel</h1>
+
+    <div class="formheader">
+        <h2>Contact Me!</h2>
+        <p>I will get back to you as soon as I can!</p>
+    </div>
+    <div class="formy">
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+        
+            <label for="comment">Comments:</label>
+            <textarea id="comment" name="comment" rows="8" cols="20" required></textarea>
+        
+            <button type="submit" onclick="submitForm()">Submit</button>
+          </form>
+    </div>
  
 
     <footer>
       
-        <p>&copy; 2023 Jacob Hartel.&copy; All rights reserved.</p>
+        <p>&copy; 2023 Jacob Hartel<br> <a href="https://github.com/Eggs-n-Jakey" target="_blank" class="hyperlink">Visit My Github!</a></p>
     </footer>
+
+    <script>
+        function submitForm(){
+            alert('Successfully Submitted I will be in touch!')
+        }
+    </script>
 
 </body>
 
